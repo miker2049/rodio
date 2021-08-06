@@ -125,6 +125,7 @@ pub mod dynamic_mixer;
 pub mod queue;
 pub mod source;
 pub mod static_buffer;
+pub mod sampler;
 
 pub use crate::conversions::Sample;
 pub use crate::decoder::Decoder;
@@ -132,3 +133,6 @@ pub use crate::sink::Sink;
 pub use crate::source::Source;
 pub use crate::spatial_sink::SpatialSink;
 pub use crate::stream::{OutputStream, OutputStreamHandle, PlayError, StreamError};
+
+pub use crate::sampler::SampleBank;
+// pub(crate) use crate::sampler::SampleBank;
